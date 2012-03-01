@@ -1,5 +1,5 @@
 -module(can).
--export([open/0, drink/0, recycle/0]).
+-export([open/0, drink/0, recycle/0, crush/0]).
 
 open() ->
 	io:format("Pshhhhhht\n").
@@ -9,3 +9,6 @@ drink() ->
 
 recycle() ->
 	io:format("Mother nature thanks you\n").
+
+crush() ->
+   	io:format("Crushed... RAWK!\n").
